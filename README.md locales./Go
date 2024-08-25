@@ -1,0 +1,43 @@
+# locales
+quote asset refers to the asset that is the price of a symbol. For the symbol BTCUSDT, USDT would be the quote asset.
+General endpoints
+Test connectivity
+GET /api/v3/ping
+
+Test connectivity to the Rest API.
+
+Weight: 1
+
+Parameters: NONE
+
+Data Source: Memory
+
+Response:
+
+{}
+
+Check server time
+GET /api/v3/time
+
+Test connectivity to the Rest API and get the current server time.
+
+Weight: 1
+
+Parameters: NONE
+
+Data Source: Memory
+
+Response:
+
+{
+  "serverTime": 1499827319559
+}
+
+Exchange information
+GET /api/v3/exchangeInfo
+
+Current exchange trading rules and symbol information
+
+Weight: 20
+
+Parameters:
