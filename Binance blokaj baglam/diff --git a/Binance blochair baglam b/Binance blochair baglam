@@ -1,0 +1,58 @@
+370f3066d23662b0d3dba62d71ec5a0f55fc849d Pazartesi 17 Eylül 00:00:00 2001
+Gönderen: Sarsılmazxx02 <Recocankaya@gmail.com>
+Tarih: Pzr, 25 Ağu 2024 23:30:18 +0300
+Konu: [PATCH] Binance blochair baglam'ı oluşturun
+
+---
+ Binance blokaj baglam | 42 +++++++++++++++++++++++++++++++++++++++++
+ 1 dosya değiştirildi, 42 ekleme(+)
+ mod 100644 Binance blochair baglam oluştur
+
+diff --git a/Binance blochair baglam b/Binance blochair baglam
+yeni dosya modu 100644
+dizin 0000000..0ff0492
+--- /dev/null
++++ b/Binance blok zinciri baglam	
+@@ -0,0 +1,42 @@
++quote varlığı, bir sembolün fiyatı olan varlığı ifade eder. BTCUSDT sembolü için USDT, quote varlığı olacaktır.
++Genel uç noktalar
++Test bağlantısı
++GET /api/v3/ping
++
++Rest API'ye bağlantıyı test edin.
++
++Ağırlık: 1
++
++Parametreler: YOK
++
++Veri Kaynağı: Bellek
++
++Cevap:
++
++{}
++
++Sunucu saatini kontrol edin
++GET /api/v3/time
++
++Rest API'ye bağlantıyı test edin ve güncel sunucu saatini alın.
++
++Ağırlık: 1
++
++Parametreler: YOK
++
++Veri Kaynağı: Bellek
++
++Cevap:
++
++{
++ "serverTime": 1499827319559
++}
++
++Bilgi alışverişi
++GET /api/v3/exchangeInfo
++
++Güncel borsa işlem kuralları ve sembol bilgileri
++
++Ağırlık: 20
++
++Parametreler:
