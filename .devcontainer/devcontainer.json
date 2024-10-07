@@ -1,0 +1,13 @@
+ ## $gh repo clone binance-exchange/binance-official-api-docs
+
+.NET Aspire'ı yükler. Bkz: https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/setup-tooling
+
+"ghcr.io/nikiforovall/devcontainer-features/dotnet-aspire:1": {}
+
+"image": git@github.com:binance-exchange/binance-official-api-docs.git
+"mcr.microsoft.com/devcontainers/universal:2",
+  "features": ghcr.io/elanhasson/devc
+ontainer-features/dotnet-aspire-daily:1": {}
+
+
+## apt-get, curl/wget, tabii ki bash/zsh gibi geçerli kabuk komutlarını çalıştırma özelliği
